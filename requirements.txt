@@ -1,0 +1,6 @@
+numpy
+opencv-python
+tensorflow
+mtcnn
+retina-face
+mediapipe
