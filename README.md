@@ -2,13 +2,13 @@
 
 This project provides a robust Python script to compare the performance (speed and stability) of three leading face detection methods: **Haar Cascade**, **DNN-SSD (Caffe)**, and **YOLOv8-Nano (Ultralytics)**, using a live webcam feed.
 
-## ✨ Features
+## Features
 
 * **Three Modes**: Run any single detector (`haar`, `dnn`, or `yolo`), run **all three simultaneously** (`compare`), or run a **detailed benchmark** (`benchmark`).
 * **Performance Benchmarking**: FPS measurement, stability testing, and **Matplotlib charts** for comparison.
 * **Real-time Visualization**: Bounding boxes, confidence scores (DNN/YOLO), and FPS.
 
-## 📁 Project Contents
+## Project Contents
 
 | File Name                                       | Description                                  |
 | ----------------------------------------------- | -------------------------------------------- |
@@ -20,13 +20,13 @@ This project provides a robust Python script to compare the performance (speed a
 | `requirements.txt`                              | Lists Python dependencies                    |
 | `LICENSE`                                       | License information                          |
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
-### 1️⃣ Prerequisites
+### Prerequisites
 
 Install **Python 3.x**
 
-### 2️⃣ Create & Activate Virtual Environment
+### Create & Activate Virtual Environment
 
 ```bash
 python3 -m venv venv
@@ -36,15 +36,15 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+### 3️Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> ✅ Ensure model files are placed in the same directory as `face_detection_com.py`
+> Ensure model files are placed in the same directory as `face_detection_com.py`
 
-## 💻 Usage
+## Usage
 
 Run from terminal:
 
